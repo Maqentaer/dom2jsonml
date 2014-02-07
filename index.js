@@ -27,7 +27,7 @@ module.exports = function(elem, filter, callback)
 	if(callback)
 	{
 		if(null === jsonMl)
-			callback(new Error("Invalid JSONML"));
+			callback(new Error("Invalid DOM"));
 		else
 			callback(null, jsonMl)
 	}

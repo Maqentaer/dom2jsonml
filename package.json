@@ -1,21 +1,28 @@
 {
   "name": "dom2jsonml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert DOM to JSONML",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
     "test": "node ./test/index.js",
-    "watch": "nodemon -w ./index.js -w ./lib/* index.js"
+    "watch": "nodemon -w ./index.js -w ./lib/jsonml-dom.js index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Maqentaer/dom2jsonml"
   },
   "keywords": [
-    "jsonml"
+    "jsonml",
+    "dom2jsonml",
+    "html2jsonml"
   ],
   "author": "Roman Glebsky <maqentaer@gmail.com>",
+  "contributors": [
+    {
+      "name": "Maqentaer"
+    }
+  ],
   "licenses": [
     {
       "type": "MIT",
